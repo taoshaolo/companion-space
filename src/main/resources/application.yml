@@ -62,6 +62,6 @@ cos:
 # 第三方登录配置 申请地址 https://uniqueker.top/
 third:
   config:
-    appId: 3078
-    appKey: 464872d3e7df753bd7e605baca4561ba
-    redirectUrl: http://49.232.232.166
+    appId: xxx
+    appKey: xxx
+    redirectUrl: xxx
