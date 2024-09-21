@@ -1,0 +1,28 @@
+# 线上配置文件
+spring:
+  # DataSource Config
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://49.232.232.166:3306/companion_space
+    username: companion_space
+    password: taoshao666!
+  redis:
+    port: 6379
+    host: 49.232.232.166
+    database: 3
+    password: taoshao666!
+server:
+  address: 0.0.0.0
+  servlet:
+    session:
+      cookie:
+        #cookie将仅在localhost域上有效，
+        #从而限制了cookie的共享范围，增加了安全性
+        domain: 49.232.232.166
+knife4j:
+  enable: false
+
+mybatis-plus:
+  configuration:
+    # 生产环境关闭日志
+    log-impl: ''
